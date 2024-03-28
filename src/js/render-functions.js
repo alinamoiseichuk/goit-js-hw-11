@@ -14,6 +14,8 @@ if (data.length == 0) {
         progressBarColor: '#FFFFFF',
         color: '#EF4040',
         position: 'topRight',
+        width: '432px',
+        height: '88px',
     });
 } else {
     const markup = data.map((photo) => {
